@@ -1,4 +1,4 @@
-# Command Basics
+# Section 03 - Command Basics
 
 [PDF](./assets/02_Command_Basics.pdf)
 

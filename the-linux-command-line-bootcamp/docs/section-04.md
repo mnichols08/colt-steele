@@ -1,4 +1,4 @@
-# Section 04: Getting Help
+# Section 04 - Getting Help
 
 All about getting help - finding documentation...
 
