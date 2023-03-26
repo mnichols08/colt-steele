@@ -24,3 +24,10 @@ lets see
 to search within a LESS file, you can type `/` and then type in something to search for and find out
 `-w` means we get the week number
 
+So how do we read a synopsis?
+ncal [31bhJeoSM] 
+well the square brackets mean that it those options are all option and also lumped together
+if there are other options seperated by brackets they must be seperated
+
+TLDR; `man <app>` will list useful information about using commands in the terminal
+
