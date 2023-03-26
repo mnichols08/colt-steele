@@ -1,4 +1,4 @@
-#Command Basics
+# Command Basics
 
 [PDF](./assets/02_Command_Basics.pdf)
 
@@ -6,7 +6,7 @@ First offical command to learn is
 `clear` - clears the terminal
 
 What is we don't have a `prompt`?
-What if the prompt says 
+What if the prompt says
 `>`?
 
 Well, the terminal is confused because it is waiting for a quote to close.
@@ -22,6 +22,7 @@ Well that command is not found, but there are commands to learn but we will come
 Next we have `ncal` or new calander
 
 when trying to use this with bash I couldn't and by then I finally got Ubuntu installed but it also threw an error about not being able find and suggested installing but it threw this
+
 ```
 apt install ncal
 Reading package lists... Done
@@ -29,13 +30,17 @@ Building dependency tree... Done
 Reading state information... Done
 E: Unable to locate package ncal
 ```
+
 to which I fixed with
+
 ```
 apt update
 ```
+
 as per a suggestion found googling
 
 it now works
+
 ```
     March 2023
 Su     5 12 19 26
@@ -54,33 +59,49 @@ we can use the arrows in the terminal to do various tasks... < and > will naviga
 and the ^ arrow will allow me to take a shortcut to skip to the previous command or the down arrow to move back one
 
 The vast majority of commands follow a particular structure.
-    >`command` -`options` `arguments`
-    - the first thing typed into the prompt is the `command` and will tell the terminal what function to run
-    - options are passed in by flagging them with a `-` before and `arguments` are passed in last and usually are things the command will act upon or use.
+\>`command` -`options` `arguments`
+\- the first thing typed into the prompt is the `command` and will tell the terminal what function to run
+\- options are passed in by flagging them with a `-` before and `arguments` are passed in last and usually are things the command will act upon or use.
 
 Arguments are parameters that we give to the command to work with or operate on. For example:
+
 ```
 echo
 ```
+
 will print and empty line
-but ```
-echo hello
+but
+
 ```
+echo hello
+
+```
+
 will print a line
 
 But some require arguments and others dont and this one we can pass in as many argumentsa s we want and it will just concatenate them together
+
 ```
+
 echo check this long string out that has a lot of characters and spaces!
+
 ```
 
 back to ncal though
 We can specify a year or a month
+
 ```
+
 ncal 1989
+
 ```
+
 or even
+
 ```
+
 ncal october 1989
+
 ```
 
 The point is this command takes no arguments or works with multiple and will return calanders
@@ -92,3 +113,13 @@ typing simply `sort` into the terminal prompt will cause a hangup
 These commands need arguments and will wait for them before running. Press ctrl + c to exit if you get hung up by doing that.
 
 `rm` is a command which will require an argument and complain if you dont, but this one will remove a file
+
+__options__
+Every command usually has a selection of options ehich we can use while executing the command. They will modify the behavior of the command in predefined ways. 
+They are prefixed with a hyphen or dash as in `-` such as `command -option` or `sort -r colors.txt`
+
+`ncal -h` to remove highlighting
+`ncal -j` to get a calander with the number days in the year
+`ncal -M` with Monday as the first day of week.
+`ncal -3` with the surrounding months
+
