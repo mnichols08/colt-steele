@@ -145,6 +145,12 @@ Sa  4 11 18 25
 
 the next command to use is `cal` which does not do much differnet besides an old school style of a calander
 
+we can use the arrows in the terminal to do various tasks... < and > will navigate the text cursor
+
+and the ^ arrow will allow me to take a shortcut to skip to the previous command or the down arrow to move back one
+
+
+
 
 
 
