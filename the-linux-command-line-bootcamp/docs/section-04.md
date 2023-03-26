@@ -64,3 +64,31 @@ lets try `help`
 In general if there are not a page in the `man` program for a command, then check the `help` page instead.
 Read, learn.
 
+##### Exercise
+# Getting Help Exercise
+
+- There is a command called `whoami`.  **Before you run it**, read the manual page entry on it.  From the manual page entry, can you tell if it needs any options or arguments? What does it do?
+    - Based upon what I read in the `man` page, `whoami` is a user command that takes in an optional `option`. The output is the user name associated with the current effective user ID. By providing it with a `-h` you can display help. By providing a `-v`, an output version is printed.
+- Now try running it! What happens?
+    - It turns out I was wrong! I have to provide the `long-form option` because this one does not accept short ones.
+- There is another command called `who`.  Without turning to Google, figure out what it does! Does it require any arguments or options to run?
+    - `who` is a user command to print information about users that are currently logged in
+    - It does not require arguments outside of it's command name
+- Use the `who` command to print out the time of the most recent system boot.  You'll need to find an option to help you do this!
+    - `who -b`
+    who [OPTION]... [ FILE | ARG1 ARG2 ]
+    I am stumped... But in the video he does exactly what I did so I think maybe it is just not working because I have a virtual machine of Ubuntu running perhaps?
+    This is the output that renders
+    ```
+    root@DESKTOP-1UKT1FA:~# who -l
+    root@DESKTOP-1UKT1FA:~# who
+    root@DESKTOP-1UKT1FA:~# who
+    root@DESKTOP-1UKT1FA:~# who -l
+    root@DESKTOP-1UKT1FA:~# who lb
+    root@DESKTOP-1UKT1FA:~# who -lb
+    root@DESKTOP-1UKT1FA:~#
+```
+- Run a command to figure out whether the `echo` command is a a binary, a shell-built in, or an alias.
+    - `type echo` || echo is a shell builtin
+- Do the same for  the `date` command
+    - `type date` || date is /usr/bin/date
