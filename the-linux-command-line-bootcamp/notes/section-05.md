@@ -21,4 +21,11 @@ The shorhand to get to the `root` is `/` where the shorhand to reference `/home`
 
 #### Print Working Directory
 > `pwd` - a command which is simple but useful. It prints the path of the current working directory starting from the root `/`
+It proves to be a lot less useful if you are using a prompt where your pwd is given to you on each prompt
+
+## ls - the most common command
+stands for list or short for lists -
+simply lists the contents of a directory
+
+We can also use `ls <path>` to cd into a folder and type ls with one command
 
