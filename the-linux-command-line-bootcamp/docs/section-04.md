@@ -1,4 +1,4 @@
-# Section 04: Gettion Help
+# Section 04: Getting Help
 
 All about getting help - finding documentation...
 
@@ -31,3 +31,8 @@ if there are other options seperated by brackets they must be seperated
 
 TLDR; `man <app>` will list useful information about using commands in the terminal
 
+User commands are only just a single part of the `man` docs
+
+### Searching the Manual
+`man -k ncal` useful for looking for a particular part of a manual
+`man -k passwd` shows numerous pages mentioning passwd
