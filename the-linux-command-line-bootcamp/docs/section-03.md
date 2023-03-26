@@ -123,3 +123,15 @@ They are prefixed with a hyphen or dash as in `-` such as `command -option` or `
 `ncal -M` with Monday as the first day of week.
 `ncal -3` with the surrounding months
 
+## Combining options
+
+Sometimes we might want to comine two or three different options together
+Well we can just add additional options to the command such as
+```
+ncal -j -M -3
+```
+
+or, we can also write
+```
+ncal -jM3
+```
