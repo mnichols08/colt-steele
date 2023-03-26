@@ -23,7 +23,7 @@ It is absolutely necessary for cloud computing, deploying apps, etc.
 The highest paying jobs out there love linux command line users
 - So yeah, It is basically a requirement to have at least 50% of the commands but if you can master the command line you can make some serious $$
 
-_One Small Piece of Advice_
+_One Small Piece of Advice From Colt_
 ```
 DO NOT MEMORIZE
 JUST PRACTICE
