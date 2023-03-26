@@ -1,4 +1,6 @@
+#Command Basics
 
+[PDF](./assets/02_Command_Basics.pdf)
 
 First offical command to learn is
 `clear` - clears the terminal
@@ -89,4 +91,4 @@ typing simply `sort` into the terminal prompt will cause a hangup
 
 These commands need arguments and will wait for them before running. Press ctrl + c to exit if you get hung up by doing that.
 
-`rm` is a command which will require
+`rm` is a command which will require an argument and complain if you dont, but this one will remove a file
