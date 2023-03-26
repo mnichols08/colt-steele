@@ -149,7 +149,37 @@ we can use the arrows in the terminal to do various tasks... < and > will naviga
 
 and the ^ arrow will allow me to take a shortcut to skip to the previous command or the down arrow to move back one
 
+The vast majority of commands follow a particular structure.
+    >`command` -`options` `arguments`
+    - the first thing typed into the prompt is the `command` and will tell the terminal what function to run
+    - options are passed in by flagging them with a `-` before and `arguments` are passed in last and usually are things the command will act upon or use.
 
+Arguments are parameters that we give to the command to work with or operate on. For example:
+```
+echo
+```
+will print and empty line
+but ```
+echo hello
+```
+will print a line
+
+But some require arguments and others dont and this one we can pass in as many argumentsa s we want and it will just concatenate them together
+```
+echo check this long string out that has a lot of characters and spaces!
+```
+
+back to ncal though
+We can specify a year or a month
+```
+ncal 1989
+```
+or even
+```
+ncal october 1989
+```
+
+The point is this command takes no arguments or works with multiple and will return calanders
 
 
 
