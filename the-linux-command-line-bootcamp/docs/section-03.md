@@ -151,3 +151,11 @@ of course you could also type
 or `--unique`
 but `-ru` would work just as well to combine them
 
+`ncal -A 5` for printing months After (and requires a number)
+`ncal -B 5` for printing months Before (and requiresa number)
+
+can also type
+`ncal -A5 -B5` to combine
+
+another neat trick is to type
+`ncal october 1989 -B1 -A1 -M` to get one month before and after the month I was born and starting on mondays
