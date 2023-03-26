@@ -20,5 +20,5 @@ The `/root` folder contains the files that are shared by users and are accessibl
 The shorhand to get to the `root` is `/` where the shorhand to reference `/home` is `~`
 
 #### Print Working Directory
-> `pwd` - a command which is simple but useful. It prints the path
+> `pwd` - a command which is simple but useful. It prints the path of the current working directory starting from the root `/`
 
