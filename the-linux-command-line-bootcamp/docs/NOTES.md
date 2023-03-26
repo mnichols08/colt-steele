@@ -83,3 +83,69 @@ At the same time, another developer named Linus Torvalds, was developing a kerne
 
 It would definitly be annoying to be Richard Stallman in this situation
 Linux is the kernel, GNU is the Shell and UI
+
+# Shell -> OS
+A shell is a computer interface to an operating system. They expose the OS's services to human users or other programs.
+
+A Terminal is a program that runs a shell. Originally terminals were physical devices, but these days we work with software terminals.
+
+The most commonly used one and the one we will be using is `bash` or born-again sh(ell); kind of like a shell 2.0 if you will?
+
+Opening the terminal
+Right click inside of any window and hit open with terminal
+Or open a terminal
+
+When a terminal is open, our open text to type into is called the `prompt`
+This is where we can type to the computer directly
+
+First offical command to learn is
+`clear` - clears the terminal
+
+What is we don't have a `prompt`?
+What if the prompt says 
+`>`?
+
+Well, the terminal is confused because it is waiting for a quote to close.
+
+Up next is the `date` command
+
+It may not seem very useful, but it is where we are starting.
+It is case sensitive on some terminals
+
+But what about `date asdasd`?
+Well that command is not found, but there are commands to learn but we will come back to that.
+
+Next we have `ncal` or new calander
+
+when trying to use this with bash I couldn't and by then I finally got Ubuntu installed but it also threw an error about not being able find and suggested installing but it threw this
+```
+apt install ncal
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package ncal
+```
+to which I fixed with
+```
+apt update
+```
+as per a suggestion found googling
+
+it now works
+```
+    March 2023
+Su     5 12 19 26
+Mo     6 13 20 27
+Tu     7 14 21 28
+We  1  8 15 22 29
+Th  2  9 16 23 30
+Fr  3 10 17 24 31
+Sa  4 11 18 25
+```
+
+the next command to use is `cal` which does not do much differnet besides an old school style of a calander
+
+
+
+
+
