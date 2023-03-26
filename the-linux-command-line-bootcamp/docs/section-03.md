@@ -135,3 +135,19 @@ or, we can also write
 ```
 ncal -jM3
 ```
+
+## Long Form option
+If we want to write more sensical scripts in UNIX, we can pass in a long-form option
+We do that by supplying two hyphens instead of one `--`
+```
+date --universal
+```
+It is important to note if you intend a long-form option you must use the two hyphens or it will follow the previous logic and try to apply a `-a` as well as a `-t` and a `-e`
+
+`-u` will return unique results
+`-r` will return reversed results
+of course you could also type
+`--reverse`
+or `--unique`
+but `-ru` would work just as well to combine them
+
