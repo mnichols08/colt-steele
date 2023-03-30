@@ -30,5 +30,29 @@ simply lists the contents of a directory
 We can also use `ls <path>` to cd into a folder and type ls with one command
 
 ##### Helpful ls options
-- `ls -l` || the long format for each directory which inclues the owner, the group, permissions, modification date, and size
-- `ls -a` || 
+- `ls -l` => the long format for each directory which inclues the owner, the group, permissions, modification date, and size
+    Permissions|Count|Owner|Group|Size|Modification Date|Name
+    ------------ | ------------- | ------------- | -------------  | -------------  | -------------  | ------------- 
+    drwxr-xr-x|2|root|root|4096|Mar 28 10:40|adults
+    drwxr-xr-x|2|root|root|4096|Mar 28 10:40|puppies
+- `ls -a` => for showing hidden files and folders
+- `ls -la` => to combine both commands
+- `ls -h` => to human readable
+- `ls -S` => sorts by fileSize
+- `ls -l --sort=time` => sorts by time
+- `ls -a --sort=size` => sorts all by filesize
+- `ls -lah` => ```
+root@DESKTOP-1UKT1FA:~# ls -lah
+total 28K
+drwx------  3 root root 4.0K Mar 28 10:40 .
+drwxr-xr-x 19 root root 4.0K Mar 29 21:44 ..
+-rw-------  1 root root 1.4K Mar 27 01:00 .bash_history
+-rw-r--r--  1 root root 3.1K Oct 15  2021 .bashrc
+-rw-------  1 root root   20 Mar 28 10:40 .lesshst
+-rw-r--r--  1 root root    0 Mar 29 21:44 .motd_shown
+-rw-r--r--  1 root root  161 Jul  9  2019 .profile
+drwxr-xr-x  4 root root 4.0K Mar 28 10:40 Dogs
+```
+###### Other ls options
+It goes without saying, but we can find a full list of all ls command options by typing `man ls` into the terminal
+
