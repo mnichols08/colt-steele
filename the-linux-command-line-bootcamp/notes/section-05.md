@@ -41,7 +41,8 @@ We can also use `ls <path>` to cd into a folder and type ls with one command
 - `ls -S` => sorts by fileSize
 - `ls -l --sort=time` => sorts by time
 - `ls -a --sort=size` => sorts all by filesize
-- `ls -lah` => ```
+- `ls -lah` => 
+```
 root@DESKTOP-1UKT1FA:~# ls -lah
 total 28K
 drwx------  3 root root 4.0K Mar 28 10:40 .
@@ -55,4 +56,13 @@ drwxr-xr-x  4 root root 4.0K Mar 28 10:40 Dogs
 ```
 ###### Other ls options
 It goes without saying, but we can find a full list of all ls command options by typing `man ls` into the terminal
+
+## cd command
+stands for change directory
+used to move into a different directory
+`cd <directory>/<subdirectory>`
+
+to navigate back or up a directory use
+`cd ..`
+`.` represents current directory where `..` represents the parent directory
 
