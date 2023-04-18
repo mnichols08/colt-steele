@@ -66,3 +66,6 @@ to navigate back or up a directory use
 `cd ..`
 `.` represents current directory where `..` represents the parent directory
 
+## Absolute vs Relative Path
+
+Relative paths are paths that specify a directory or file to the current directory. For example, if our current directory is /home/root and we want to cd into animals, we ca simply run cd animals. However, cd animals does NOT work if we are located in another directory like /bin. The relative path from /bin is ../home/colt/animals
