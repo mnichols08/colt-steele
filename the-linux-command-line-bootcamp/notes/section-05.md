@@ -53,7 +53,7 @@ drwxr-xr-x 19 root root 4.0K Mar 29 21:44 ..
 -rw-r--r--  1 root root    0 Mar 29 21:44 .motd_shown
 -rw-r--r--  1 root root  161 Jul  9  2019 .profile
 drwxr-xr-x  4 root root 4.0K Mar 28 10:40 Dogs
-```
+``` 
 ###### Other ls options
 It goes without saying, but we can find a full list of all ls command options by typing `man ls` into the terminal
 
