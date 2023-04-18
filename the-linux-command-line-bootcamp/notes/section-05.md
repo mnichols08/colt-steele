@@ -68,8 +68,10 @@ to navigate back or up a directory use
 
 ## Absolute vs Relative Path
 
-Absolute paths are paths that start at the root directory and start with a / , We can use absolute paths to specify a location no matter our current location
+Absolute paths are paths that start at the root directory and start with a / , We can use absolute paths to specify a location no matter our current location. 
+`cd /` takes us to the root folder
 
-Relative paths are paths that specify a directory or file to the current directory. For example, if our current directory is /home/root and we want to cd into animals, we ca simply run cd animals. However, cd animals does NOT work if we are located in another directory like /bin. The relative path from /bin is ../home/colt/animals
+Relative paths are paths that specify a directory or file to the current directory. For example, if our current directory is /home/root and we want to cd into animals, we ca simply run cd animals. However, cd animals does NOT work if we are located in another directory like /bin. The relative path from /bin is ../home/colt/animals 
+`cd ~` takes us to the user folder
 
 Most of this has nothing to do with web development, but there are some caveats that do apply such as paths. For example, in both areas, js and the command line, . means current directory and .. means parent directory. / is absolute, placing you at the root level of an environment.
