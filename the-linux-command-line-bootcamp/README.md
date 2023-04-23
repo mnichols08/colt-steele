@@ -6,3 +6,4 @@ This is my source for all of the information gathered while watching and partici
 3. [Section 3](./notes/section-03.md)
 4. [Section 4](./notes/section-04.md)
 5. [Section 5](./notes/section-05.md)
+6. [Section 6](./notes/section-06.md)
