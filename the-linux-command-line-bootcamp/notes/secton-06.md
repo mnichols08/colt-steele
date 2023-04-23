@@ -86,4 +86,6 @@ I did not have success using this command to create multiple files
 CTRL S in Nano is save! (I did not know that)
 I also learned that I can open nano in windows by opening a ubuntu terminal from VS Code in this folder! xD
 
+If learned and used appropriately, Nano can increase productivity but it is probably not worth mastering.
 
+I did just find that even if my computer crashes, while editing a file within nano, that a file .swp remains in the folder and I was able to retrieve this section of coude which I previous lost xD
