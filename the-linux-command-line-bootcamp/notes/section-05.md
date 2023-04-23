@@ -86,3 +86,20 @@ log - folder to contain logs
 root - (not /) - home folder for user called root (super user)
 usr - Contains subdirectories containing usually executables that are defined by a specific user
 home - Most relevant folder for us where our current user data is stored
+
+## Exercise
+**From this point forward, ONLY use the terminal to accomplish the following:**
+
+1. Open a new terminal window. Navigate to the `Farm` folder. [x]
+2. List the contents of the `Farm` directory. [x]
+3. "Move" into the `Coop` folder. [x]
+4. List the contents of the `Coop` folder. [x]
+5. "Move" into the `Chickens` folder. [x]
+6. List out the chickens in the `Chickens` folder.  How many are there? [x] - 6
+7. One of the chickens is very very old, which one is it? (which file in the `Chickens` folder has the oldest modification time?) Use a command to figure it out! [x] `ls -l --sort=time` Mine are all the same time though but Elvis in the original compressed folder
+8. In a **single** command, move from the `Chickens` directory to the `Geese` directory.  Consult the folder structure written out above if needed. [x]
+9. How many geese (files) are in the `Geese` directory? - 4
+10. One of the geese is sitting on a golden egg!  It's larger than the other geese. Which one is it?  (which file in the `Geese` folder is the largest?).  Use a command to figure it out! [x] Muffin
+11. Navigate to the `Horses` directory.  Consult the folder structure written out above, if needed. [x]
+12. How many horses are in the `Horses` directory? - 5
+13. Wait! There is a hidden horse in the `Horses` directory! What is it's name?? [x] - Troy
