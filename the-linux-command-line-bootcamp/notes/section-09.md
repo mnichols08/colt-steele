@@ -9,4 +9,10 @@ It is sort of like ls but lists the contents of a file directly in the terminal.
 
 The concatenation part comes from cat. It allows us to take multiple files as inputs and output a single phrase
 
-
+`less <filename>` - will read the contents of a file in a way that allows the user to navigae up and down and also have the ability to search. It is a lot like a pdf reader - not an editor.
+- With less open we have access to a few commands:
+	- space or f to go to next page
+	- b to to back to previous page
+	- enter or down to scroll line by line
+	- forward slash / followed by a pattern to search
+	- q to quit
