@@ -78,3 +78,11 @@ Most of this has nothing to do with web development, but there are some caveats 
 
 `cd Desktop/Dogs` works from some folders but not all - This is a relative path - must be within scope of folder
 `cd /home/User/Folder` can be referenced from any location upon the machine
+
+bin - binaries (tons of executables inside such as man, pwd)
+etc - contains configuration and initilization scripts, nanorc, more
+tmp - folder to access data from a temporary source such as a CD ROM
+log - folder to contain logs
+root - (not /) - home folder for user called root (super user)
+usr - Contains subdirectories containing usually executables that are defined by a specific user
+home - Most relevant folder for us where our current user data is stored
