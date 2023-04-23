@@ -25,7 +25,12 @@ To me it makes sense to be called touch, and we aren't leveraging touch but rath
 A useful command to determine the file type of a specified file, regardless of it's file extension is by using the `file` command.
 It could be beneficial if we were providing a program a file and allow the program to determine what to do with the file.
 
-Side Bar - "Multiple Word Argument" can be achieved by Multiple\ Word\ Argument because `\` tells the machine to ignore the next character programatically, just print it 
+- Side Bar
+    "Multiple Word FILE or FOLDER" could be achieved by Multiple\ Word\ FILE\ or\ FOLDER because `\` tells the machine to ignore the next character programatically, just print it 
+
 ### Bad Habits to AVOID when creating files and folders
 In general stick to numbers and letters wherever possible. Always avoid spaces. kebab-case is usually best.
 Capitalization matters so stick with a clean format.
+
+### mkdir
+We can create new directories with the `mkdir` command. It can also create as many folders as the number of arguments increase. Like touch, we can provide a path to the prefix to place the folder anywhere on our machine from the same folder.
