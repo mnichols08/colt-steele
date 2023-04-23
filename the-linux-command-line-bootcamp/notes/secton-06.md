@@ -25,3 +25,7 @@ To me it makes sense to be called touch, and we aren't leveraging touch but rath
 A useful command to determine the file type of a specified file, regardless of it's file extension is by using the `file` command.
 It could be beneficial if we were providing a program a file and allow the program to determine what to do with the file.
 
+Side Bar - "Multiple Word Argument" can be achieved by Multiple\ Word\ Argument because `\` tells the machine to ignore the next character programatically, just print it 
+### Bad Habits to AVOID when creating files and folders
+In general stick to numbers and letters wherever possible. Always avoid spaces. kebab-case is usually best.
+Capitalization matters so stick with a clean format.
