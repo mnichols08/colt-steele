@@ -75,3 +75,6 @@ Relative paths are paths that specify a directory or file to the current directo
 `cd ~` takes us to the user folder
 
 Most of this has nothing to do with web development, but there are some caveats that do apply such as paths. For example, in both areas, js and the command line, . means current directory and .. means parent directory. / is absolute, placing you at the root level of an environment.
+
+`cd Desktop/Dogs` works from some folders but not all - This is a relative path - must be within scope of folder
+`cd /home/User/Folder` can be referenced from any location upon the machine
