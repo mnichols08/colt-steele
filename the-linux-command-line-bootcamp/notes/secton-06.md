@@ -82,3 +82,8 @@ my-app/
 
 I am using  $null > public/index.html because I am using Power Shell and I don't have this repository on my Linux Machine
 I did not have success using this command to create multiple files
+
+CTRL S in Nano is save! (I did not know that)
+I also learned that I can open nano in windows by opening a ubuntu terminal from VS Code in this folder! xD
+
+
