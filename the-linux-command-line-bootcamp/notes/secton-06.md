@@ -81,3 +81,4 @@ my-app/
 ```
 
 I am using  $null > public/index.html because I am using Power Shell and I don't have this repository on my Linux Machine
+I did not have success using this command to create multiple files
