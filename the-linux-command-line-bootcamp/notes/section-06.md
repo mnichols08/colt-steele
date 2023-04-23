@@ -130,3 +130,4 @@ ootcamp/Exercises/NanoExercise/country-data.json`
 1. The `review.txt` file contains a text review of the Cacio E Pepe recipe from `recipe.txt`
 2. Open up the `recipe.txt` file using `nano` and scroll to the bottom. 
 3. Using a nano shortcut we have not covered, insert the contents of `review.txt` at the bottom of `recipe.txt`.
+Ctrl + R 
