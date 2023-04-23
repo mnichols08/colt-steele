@@ -19,4 +19,8 @@ For example if we try to move a folder to a folder that does not exist, it will 
 Another side effect is that if with a file if we move a file to another file to another destination that does not exist it will create the file effectively renaming a file
 In addition to moving, we can also rename and move at the same command line with mv SOMETHING.txt ../somewhere/else/SOMETHINGELSE.txt
 
+We can make copies of files and folders using the cp command
+Follows the same syntax as others cp source destination must provide one or more source files or folders and one destination folder
 
+To create a copy of a folder cp Cleanup CopyOfCleanup
+This creates a copy of the first folder, most of the time we want to add the recursive option -r to add all folders inside of the folder
