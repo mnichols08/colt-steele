@@ -122,7 +122,8 @@ Download the above zip file.  Unzip it and then navigate to the resulting direct
 
 1. The `country-data.json` file contains a large country dataset, with over 39,000 lines of json!
 2. Unfortunately, there is a typo on line **15399**.  It says "Hondras" but it should say "Honduras".  Please fix this!  Rather than scrolling for a decade, use a nano shortcut to jump to line **15399**.
-3. **Bonus:** Figure out how to tell `nano` to open the file at exactly **15399**.
+3. **Bonus:** Figure out how to tell `nano` to open the file at exactly **15399**. `nano +15399 ../mnt/e/Journey-To-Coding/Online-Project-Ideas/colt-steele/the-linux-command-line-b
+ootcamp/Exercises/NanoExercise/country-data.json`
 
 ## Bonus
 
