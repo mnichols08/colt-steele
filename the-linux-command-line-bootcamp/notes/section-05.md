@@ -23,9 +23,83 @@ The shorhand to get to the `root` is `/` where the shorhand to reference `/home`
 > `pwd` - a command which is simple but useful. It prints the path of the current working directory starting from the root `/`
 It proves to be a lot less useful if you are using a prompt where your pwd is given to you on each prompt
 
-## ls - the most common command
+##### ls - the most common command
 stands for list or short for lists -
 simply lists the contents of a directory
 
 We can also use `ls <path>` to cd into a folder and type ls with one command
 
+##### Helpful ls options
+- `ls -l` => the long format for each directory which inclues the owner, the group, permissions, modification date, and size
+    Permissions|Count|Owner|Group|Size|Modification Date|Name
+    ------------ | ------------- | ------------- | -------------  | -------------  | -------------  | ------------- 
+    drwxr-xr-x|2|root|root|4096|Mar 28 10:40|adults
+    drwxr-xr-x|2|root|root|4096|Mar 28 10:40|puppies
+- `ls -a` => for showing hidden files and folders
+- `ls -la` => to combine both commands
+- `ls -h` => to human readable
+- `ls -S` => sorts by fileSize
+- `ls -l --sort=time` => sorts by time
+- `ls -a --sort=size` => sorts all by filesize
+- `ls -lah` => 
+```
+root@DESKTOP-1UKT1FA:~# ls -lah
+total 28K
+drwx------  3 root root 4.0K Mar 28 10:40 .
+drwxr-xr-x 19 root root 4.0K Mar 29 21:44 ..
+-rw-------  1 root root 1.4K Mar 27 01:00 .bash_history
+-rw-r--r--  1 root root 3.1K Oct 15  2021 .bashrc
+-rw-------  1 root root   20 Mar 28 10:40 .lesshst
+-rw-r--r--  1 root root    0 Mar 29 21:44 .motd_shown
+-rw-r--r--  1 root root  161 Jul  9  2019 .profile
+drwxr-xr-x  4 root root 4.0K Mar 28 10:40 Dogs
+``` 
+###### Other ls options
+It goes without saying, but we can find a full list of all ls command options by typing `man ls` into the terminal
+
+## cd command
+stands for change directory
+used to move into a different directory
+`cd <directory>/<subdirectory>`
+
+to navigate back or up a directory use
+`cd ..`
+`.` represents current directory where `..` represents the parent directory
+
+## Absolute vs Relative Path
+
+Absolute paths are paths that start at the root directory and start with a / , We can use absolute paths to specify a location no matter our current location. 
+`cd /` takes us to the root folder
+
+Relative paths are paths that specify a directory or file to the current directory. For example, if our current directory is /home/root and we want to cd into animals, we ca simply run cd animals. However, cd animals does NOT work if we are located in another directory like /bin. The relative path from /bin is ../home/colt/animals 
+`cd ~` takes us to the user folder
+
+Most of this has nothing to do with web development, but there are some caveats that do apply such as paths. For example, in both areas, js and the command line, . means current directory and .. means parent directory. / is absolute, placing you at the root level of an environment.
+
+`cd Desktop/Dogs` works from some folders but not all - This is a relative path - must be within scope of folder
+`cd /home/User/Folder` can be referenced from any location upon the machine
+
+bin - binaries (tons of executables inside such as man, pwd)
+etc - contains configuration and initilization scripts, nanorc, more
+tmp - folder to access data from a temporary source such as a CD ROM
+log - folder to contain logs
+root - (not /) - home folder for user called root (super user)
+usr - Contains subdirectories containing usually executables that are defined by a specific user
+home - Most relevant folder for us where our current user data is stored
+
+## Exercise
+**From this point forward, ONLY use the terminal to accomplish the following:**
+
+1. Open a new terminal window. Navigate to the `Farm` folder. [x]
+2. List the contents of the `Farm` directory. [x]
+3. "Move" into the `Coop` folder. [x]
+4. List the contents of the `Coop` folder. [x]
+5. "Move" into the `Chickens` folder. [x]
+6. List out the chickens in the `Chickens` folder.  How many are there? [x] - 6
+7. One of the chickens is very very old, which one is it? (which file in the `Chickens` folder has the oldest modification time?) Use a command to figure it out! [x] `ls -l --sort=time` Mine are all the same time though but Elvis in the original compressed folder
+8. In a **single** command, move from the `Chickens` directory to the `Geese` directory.  Consult the folder structure written out above if needed. [x]
+9. How many geese (files) are in the `Geese` directory? - 4
+10. One of the geese is sitting on a golden egg!  It's larger than the other geese. Which one is it?  (which file in the `Geese` folder is the largest?).  Use a command to figure it out! [x] Muffin
+11. Navigate to the `Horses` directory.  Consult the folder structure written out above, if needed. [x]
+12. How many horses are in the `Horses` directory? - 5
+13. Wait! There is a hidden horse in the `Horses` directory! What is it's name?? [x] - Troy
