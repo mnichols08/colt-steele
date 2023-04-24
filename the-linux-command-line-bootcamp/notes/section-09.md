@@ -16,3 +16,16 @@ The concatenation part comes from cat. It allows us to take multiple files as in
 	- enter or down to scroll line by line
 	- forward slash / followed by a pattern to search
 	- q to quit
+`tac <filename>` - just like cat, but in reverse
+
+`rev <filename>` - reverse each line
+
+`head <filename>` - would print the first ten lines of a file
+The head command prints a portion of a file, starting from the beginning of the file. By default, it prints the first 10 lines of a file.
+
+`tail <filename>` - would print the final ten lines of a file
+The taile command is the opposite of the head command
+
+Both `head` and `tail` can be provided an option of -n <number> and provide a number of lines to display instead of defaulting to 10 we can skip the -n and provide just a -<number> as well
+In addition, there is a `-c` option which is used to display the last number of bytes
+`tail` can be provided an option of `-f` to await changes at the end of a file. It is particularly useful for viewing logs as it hangs up the terminal but allows the user to monitor incoming changes in realtime
