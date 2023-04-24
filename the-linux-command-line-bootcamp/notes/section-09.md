@@ -30,7 +30,18 @@ Both `head` and `tail` can be provided an option of -n <number> and provide a nu
 In addition, there is a `-c` option which is used to display the last number of bytes
 `tail` can be provided an option of `-f` to await changes at the end of a file. It is particularly useful for viewing logs as it hangs up the terminal but allows the user to monitor incoming changes in realtime
 
-wc
+`wc <filename>` - prints out 3 numbers - lines, words, bytes in a file
+`wc <filename> -l` - lines
+`wc <filename> -c` - bytes
+`wc <filename -m` - characters
 The word count command can tell us the number of words, lines, or bytes in files. By default it prints out three numbers: the lines, words, and bytes in a file.
 We can use the -l option to limit the output to eh number of lines.
 The -w option limits the output to the number of words in the file.
+
+`sort <filename>` - would print each line from a file sorted in alphabetical order
+The sort command outputs the sorted contents of a file (it does not change the file itself). By default, it will sort the lines of a file alphabetically.
+ -r can be used to return in reverse not to be confused with -R for random-sort
+ -n for numeric sort
+ -u tells sort command to ignore duplicate values
+ -k <number> to specify a particular column that we want to sort by using a field number after
+ -kn <number> to sort by a number in a particular column
