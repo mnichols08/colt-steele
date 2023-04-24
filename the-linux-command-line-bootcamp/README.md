@@ -7,3 +7,7 @@ This is my source for all of the information gathered while watching and partici
 4. [Section 4](./notes/section-04.md)
 5. [Section 5](./notes/section-05.md)
 6. [Section 6](./notes/section-06.md)
+7. [Section 7](./notes/section-07.md)
+8. [Section 8](./notes/section-08.md)
+9. [Section 9](./notes/section-09.md)
+10. [Section 10](./notes/section-10.md)
