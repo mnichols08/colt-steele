@@ -29,3 +29,8 @@ The taile command is the opposite of the head command
 Both `head` and `tail` can be provided an option of -n <number> and provide a number of lines to display instead of defaulting to 10 we can skip the -n and provide just a -<number> as well
 In addition, there is a `-c` option which is used to display the last number of bytes
 `tail` can be provided an option of `-f` to await changes at the end of a file. It is particularly useful for viewing logs as it hangs up the terminal but allows the user to monitor incoming changes in realtime
+
+wc
+The word count command can tell us the number of words, lines, or bytes in files. By default it prints out three numbers: the lines, words, and bytes in a file.
+We can use the -l option to limit the output to eh number of lines.
+The -w option limits the output to the number of words in the file.
