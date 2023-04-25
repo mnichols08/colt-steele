@@ -4,6 +4,8 @@ CLOSED cases:
 3
 combined open and CLOSED cases:
 983
+Open cases with 1,3,5,7, or 9 as their final digit:
+519
 Empty Cases:
 ./case_2900_open.txt
 ./case_2950_open.txt
@@ -14,3 +16,7 @@ three larger case files:
 ./case_1995_open.txt
 Case file larger than 150k:
 ./case_1503_closed.txt
+
+Dirty Case File:
+.
+./case_2809_open.txt
