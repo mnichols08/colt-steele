@@ -1,2 +1,4 @@
 closed cases:
 980
+CLOSED cases:
+3
