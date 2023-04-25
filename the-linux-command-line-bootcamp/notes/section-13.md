@@ -84,7 +84,7 @@ Please download the following zip file, unzip it, and navigate to the `Cases/` d
 
 Welcome detective! The `Cases` folder contains a couple thousands case files, both open and closed.  Please use the `find` command to assist you in the following tasks:
 
-1. Using `find` (and another command), count the number of case files that include "closed", in lowercase, in their name. You should find **980** cases.
+1. Using `find` (and another command), count the number of case files that include "closed", in lowercase, in their name. You should find **980** cases. [x] - `echo 'closed cases:' > ../Cases.txt | find -name "*closed*" 2>> ../CasesErrors.log | wc -l >> ../Cases.txt 2>> ../CasesErrors.log`
 2. Oh no, one of our new detectives labels his cases using "CLOSED" in all caps.  Find the 3 cases that have "CLOSED" in their name.
 3. Get a total count of all closed cases that include "closed" in their name, uppercase or lowercase.   You should get a count of 983!
 4. Get a count for the total number of **open** cases with odd numbered case numbers (find the open cases that have a 1,3,5,7, or 9 as the last digit in their case number).  You should get 519 cases.
