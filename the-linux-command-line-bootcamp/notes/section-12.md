@@ -124,10 +124,10 @@ Echo is essentially a way to provide a visual experience to the user whether it 
 
 Using the files that we created in the previous section...
 
-- List out all the files that end with the number `9`
-- List out all the filenames where the second to last character is `1`
-- List out all the files that start with afternoon and then end with the number `7`
-- Make a new folder called `Mornings`, and move all the files that start with `morning` inside of it.
+- List out all the files that end with the number `9` [x] - `ls *9`
+- List out all the filenames where the second to last character is `1` [x] - `ls *1`
+- List out all the files that start with afternoon and then end with the number `7` [x] - `ls afternoon?*7`
+- Make a new folder called `Mornings`, and move all the files that start with `morning` inside of it. [x] - `mv morning-day* Mornings`
 
 ## Part 3
 
