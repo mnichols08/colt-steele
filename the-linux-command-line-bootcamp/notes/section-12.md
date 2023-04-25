@@ -118,7 +118,7 @@ Echo is essentially a way to provide a visual experience to the user whether it 
     afternoon-day-30
     ```
     
-2. For this next bit, you'll need to use the following command: `date +"%m-%d-%y"` This command will print out the current date using the format *month-day-year*, like **09-19-21**. Use this command to create a new file with the name ***todos-DATE.txt***, where DATE is the output of the above date command.  For example, if we ran the command on September 19th 2021, the resulting file would be named `todos-09-19-21.txt`.  
+2. For this next bit, you'll need to use the following command: `date +"%m-%d-%y"` This command will print out the current date using the format *month-day-year*, like **09-19-21**. Use this command to create a new file with the name ***todos-DATE.txt***, where DATE is the output of the above date command.  For example, if we ran the command on September 19th 2021, the resulting file would be named `todos-09-19-21.txt`. [x] - `date +"%m-%d-%y" > todos-$(date +"%m-%d-%y").txt`
 
 ## Part 2
 
