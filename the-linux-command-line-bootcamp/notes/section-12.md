@@ -131,7 +131,7 @@ Using the files that we created in the previous section...
 
 ## Part 3
 
-- Using a SINGLE command (with expansion), create the following folder structure.  You will need to use the `-p` option with mkdir! [x] - `mkdir -p Year/{Winter{/Yard,/House},Spring{/Yard,/House},Summer{/Yard,/House},Fall{/Yard,/House}}`
+- Using a SINGLE command (with expansion), create the following folder structure.  You will need to use the `-p` option with mkdir! [x] - `mkdir -p Year/{Winter,Spring,Summer,Fall}/{Yard,House}`
 
 ```bash
 Year/
@@ -149,7 +149,7 @@ Year/
 		House/
 ```
 
-- Finally, in each of the `Yard/` and `House/` Directories create a `todos.txt` file and a `done.txt` file.  Do this with a single line, without changing directories!  Use expansion! The resulting folder/file structure should look like this: [x] - touch Year/{Winter{/Yard,/House},Spring{/Yard,/House},Summer{/Yard,/House},Fall{/Yard,/House}}/{todos,done}.txt`
+- Finally, in each of the `Yard/` and `House/` Directories create a `todos.txt` file and a `done.txt` file.  Do this with a single line, without changing directories!  Use expansion! The resulting folder/file structure should look like this: [x] - `touch Year/{Winter,Spring,Summer,Fall}/{Yard,House}/{todos,done}.txt`
 
 ```bash
 Year/
