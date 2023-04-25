@@ -41,3 +41,33 @@
 	mtime, or modification time, is when a file was last modified AKA when its contents last changed.
 	ctime, or change time, is when a file was last changed. This occurs anytime mtime changes but also when we rename a file, move it, or alter permissions.
 	atime, or access time, is updated when a file is read by an application or a command like cat.
+
+	Finding By Time
+	We can use the -mtime num option to match files/folders that were last modified num*24 hours ago. `find -mmin -30`
+	`find -mmin -20` matches items that were modified LESS than 20 minutes ago.
+	`find -mmin + 60` matches items that were modified MORE than 60 minutes ago.
+	`find -amin n` will find files that were last accessed n minutes ago. We can specify +n for "greater than n minutes ago" and -n for "less than n minutes ago"
+	`find -anewer <file>` will find files that have been accesses more recently than the provided file
+	`find -cmin -20` matches items that were changed LESS than 20 minutes ago
+	`find -cmin + 60` matches items that were changed MORE than 60 minutes ago.
+
+	Logical Operators
+	We can use the -and, -or, and -not operators to create more complex queries.
+	`find -name "*chick*" -or- -name "*kitty*"`
+	`find -type -f -not -name "*.html"`
+
+	User Defined Actions
+	We can provide find with our own action to perform each matching pathame.
+	The syntax is `find -exec command {}; `
+	The {} are placeholder for the current pathname (each match), and the semicolon is required to indicate the end of the command.
+	`find -name "*broken" -exec rm '{}' ';'` - To delete every file that starts with contains "broken" in its file name
+	Note that we need to wrap the {} and ; in quotes because those characters have special meaning otherwise
+	`find -type f -user Mikey -exec ls -l '{}' ';'` finds all files that are owner by the user Mikey and then it lists out the full details for each match using ls -l
+	`find -type f -name "*.html" -exec cp '{}' '{}_COPY' ';' finds all files that end with .thml and creates of a copy of them using the copy command with the suffix of COPY
+
+	xargs
+	xargs reads items from standard input, separated by blanks (spaces or newlines) and then executes a command using those items
+	The mkdir command expects us to pass arguments. It does not work with standard input, so this example does NOT make any folders for us
+	`echo "hello" "World" | mkdir` => mkdir: missing operand
+	We can instead add in the xargs command, which will accept the standard input coming from echo and pass them as arguments to mkdir
+	`echo "hello" "world" | xargs mkdir
