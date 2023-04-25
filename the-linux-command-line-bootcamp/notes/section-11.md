@@ -76,7 +76,7 @@ However at the tail end there are some messed up Pokemon
     - remove all digits 0-9 from the lines (using `tr` )
     - sort the now number-less lines alphabetically
     - store the new result in a file called `original-151.txt` in `PokemonExercise`
-    
+    [x] - `echo 'Original 151 Pokemon:' > original-151.txt 2>> PokeErrors.log | sed -n '2,144p' all-pokemon.txt |tr -d [:digit:] | sort >> original-151.txt 2> PokeErrors.log`
     ```bash
     abra
     aerodactyl
