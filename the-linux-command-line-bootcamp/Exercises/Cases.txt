@@ -2,5 +2,15 @@ closed cases:
 980
 CLOSED cases:
 3
-combined closed and CLOSED cases:
+combined open and CLOSED cases:
 983
+Empty Cases:
+./case_2900_open.txt
+./case_2950_open.txt
+./case_2979_closed.txt
+three larger case files:
+./case_1503_closed.txt
+./case_1647_open.txt
+./case_1995_open.txt
+Case file larger than 150k:
+./case_1503_closed.txt
