@@ -28,7 +28,7 @@ Download the starter files here:
 
 [PokemonExercise.zip](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65520ea7-129d-4e78-9719-69bfbb7c66e0/PokemonExercise.zip)
 
-Unzip the file.  The resulting folder contains a subfolder called `PokeDex/` which in turn contains a whole bunch of files, each named for a specific Pokemon like:
+Unzip the file.  The resulting folder contains a subfolder called `PokeDex/` which in turn contains a whole bunch of files, each named for a specific Pokemon like: [x]
 
 ```bash
 PokemonExercise/
