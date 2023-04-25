@@ -27,3 +27,14 @@ We can provide regular expressions to `grep`. Regular expressions help us match 
 - `*` - repeat previous expression 0 or more times
 - `\` - escape meta-characters
 
+Grep
+This example matches a string that contains a digit 1-9 (not 0), followed by any 4 characters
+`grep '[1-9]....' prices.txt`
+
+Grep -c
+The -c option tells grep to print th enumber of matches instead of printing the actual matches
+`grep -c "\$[1-9]" prices.txt` => 4
+
+Grep -o
+The -o option tells gre to only print out the matches, rather than the entire line containing each match.
+`grep -o "\$[1-9]" prices.txt`
