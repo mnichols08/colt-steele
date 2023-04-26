@@ -101,10 +101,10 @@ We won't care about the details, only the trends
 ## Big O Definition
 We say that an algorithm is O(f(n)) if the number of simple operations the computer has to do is eventually less than a constant times f(n), as n increases
 
-f(n) could be linear (f(n) = n)
-f(n) could be quadratic (f(n) = n  )
-f(n) could be constant (f(n) = 1)
-f(n) could be something entirely different!
+- f(n) could be linear (f(n) = n)
+- f(n) could be quadratic (f(n) = n  )
+- f(n) could be constant (f(n) = 1)
+- f(n) could be something entirely different!
 
 ### Example
 ```
@@ -112,7 +112,8 @@ Example
 function addUpTo(n) {
   return n * (n + 1) / 2;
 }
-``` | Always 3 operations O(1)
+``` 
+Always 3 operations O(1)
 ```
 function addUpTo(n) {
   let total = 0;
@@ -121,7 +122,8 @@ function addUpTo(n) {
   }
   return total;
 }
-``` | Number of operations is (eventually) bounded by a multiple of n (say, 10n) O(n)
+```
+Number of operations is (eventually) bounded by a multiple of n (say, 10n) O(n)
 
 ### Another Example
 ```
@@ -136,7 +138,8 @@ function countUpAndDown(n) {
   }
   console.log("Back down. Bye!");
 }
-``` | Number of operations is (eventually) bounded by a multiple of n (say, 10n) O(n)
+```
+Number of operations is (eventually) bounded by a multiple of n (say, 10n) O(n)
 
 ### Moar Examplez
 ```
@@ -147,7 +150,8 @@ function printAllPairs(n) {
     }
   }
 }
-``` | O(n) operation inside of an O(n) operation. O(n * n)
+```
+O(n) operation inside of an O(n) operation. O(n * n)
 
 ## Simplifying Big O Expressions
 When determining the time complexity of an algorithm, there are some helpful rule of thumbs for big O expressions.
