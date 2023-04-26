@@ -21,4 +21,4 @@ This is my source for all of the information gathered while watching and partici
 18. [Section 18](./notes/section-18.md)
 19. [Section 19](./notes/section-19.md)
 
-![Certificate](./certificate.pdf)
+![Certificate](/certificate.pdf)
