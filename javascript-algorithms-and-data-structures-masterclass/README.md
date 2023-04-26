@@ -39,5 +39,6 @@ Please Take Your Time
 Notice the prerequisite lecture. It contains a suggestion on videos to watch before watching whatever video you are on...There are also helpful videos listed as well. Pay attention - it is there to help learn better.
 
 2. [Section 2](./notes/section-02.md) Big O Notation
+3. [Section 3](./notes/section-03.md) Built-In Data Structures
 
 <!-- ![Certificate](./certificate.jpg) -->
