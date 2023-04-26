@@ -18,3 +18,5 @@ This is my source for all of the information gathered while watching and partici
 15. [Section 15](./notes/section-15.md)
 16. [Section 16](./notes/section-16.md)
 17. [Section 17](./notes/section-17.md)
+18. [Section 18](./notes/section-18.md)
+19. [Section 19](./notes/section-19.md)
