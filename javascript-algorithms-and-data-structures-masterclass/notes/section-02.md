@@ -158,6 +158,12 @@ When determining the time complexity of an algorithm, there are some helpful rul
 These rules of thumb are consequences of the definition of big O notation.
 
 ## Contants Do Not Matter
+## Smaller Terms Do Not Matter
+
+# Big O Shorthands
+- Analyzing complexity with big O can get complicated
+- There are several rules of thumb that can help
+- These rules won't ALWAYS work, but are a helpful starting point
 
 ## Recap
 - To analyze the performance of an algorithm, we use Big O Notation.
@@ -165,3 +171,17 @@ These rules of thumb are consequences of the definition of big O notation.
 - Big O Notation does not care about precision, only about general trends (linear? quadratic? constant?)
 - The time or space complexity (as measured by Big O) depends only on the algorithm, not the hardware used to run the algorithm.
 - Big O Notation is everywhere, so get lots of practice!
+1. Arithmetic operations are constant
+2. Variable assignment is constant
+3. Accessing elements in an array (by index) or object (by key) is constant
+4. In a loop, the the complexity is the length of the loop times the complexity of whatever happens inside of the loop
+
+## Logarithms
+We've encountered some of the most common complexities
+Sometimes big O expressions involve more complex mathematical expressions
+One that appears more often than you might like is the logarithm!
+
+# Wut.
+This isn't a math course, so here's a rule of thumb.
+
+The logarithm of a number roughly measures the number of times you can divide that number by 2 before you get a value that's less than or equal to one.
