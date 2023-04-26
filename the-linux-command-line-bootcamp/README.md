@@ -16,3 +16,4 @@ This is my source for all of the information gathered while watching and partici
 13. [Section 13](./notes/section-13.md)
 14. [Section 14](./notes/section-14.md)
 15. [Section 15](./notes/section-15.md)
+16. [Section 16](./notes/section-16.md)
