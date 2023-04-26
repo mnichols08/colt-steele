@@ -1,6 +1,7 @@
 [submodule "the-git-and-github-bootcamp/Exercises/yesterday-exercise"]
 	path = the-git-and-github-bootcamp/Exercises/yesterday-exercise
 	url = https://github.com/Colt/yesterday-exercise
+
 [submodule "the-git-and-github-bootcamp/Exercises/GitHubExercise"]
 	path = the-git-and-github-bootcamp/Exercises/GitHubExercise
 	url = https://github.com/mnichols08/GitHubExercise
