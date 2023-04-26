@@ -37,3 +37,4 @@ I keep a copy of the slides provided by Colt within the notes/assets folder
 3. [Section 3](./notes/section-03.md) Git & Github Installation
 4. [Section 4](./notes/section-04.md) Git Basics
 5. [Section 5](./notes/section-05.md) More About Committing & Other Stuff
+6. [Section 6](./notes/section-06.md) Git Branching
