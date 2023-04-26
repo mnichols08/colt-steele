@@ -46,3 +46,4 @@ I keep a copy of the slides provided by Colt within the notes/assets folder
 12. [Section 12](./notes/section-12.md) Fetching & Pulling
 13. [Section 13](./notes/section-13.md) Odds & Ends
 14. [Section 14](./notes/section-14.md) Git Workflows (for collaboration)
+15. [Section 15](./notes/section-15.md) Rebasing
