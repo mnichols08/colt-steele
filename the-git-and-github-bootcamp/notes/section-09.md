@@ -31,15 +31,15 @@ To clear out all stashes, run `git stash clear`
 
 ### Stashing Exercise
 
-1. Initialize a new git repo in a folder
-2. Create a file called `diary.txt`.  Inside the file, add the following:
+1. Initialize a new git repo in a folder [x]
+2. Create a file called `diary.txt`.  Inside the file, add the following: [x]
     
     ```
     I love my boss
     ```
     
-3. Add and commit the changes on the `master` branch
-4. Create a new branch called `the-truth`.  Switch to it.
+3. Add and commit the changes on the `master` branch [x]
+4. Create a new branch called `the-truth`.  Switch to it. [x]
 5. In the `diary.txt` file, erase the contents and instead replace it with:
     
     ```
@@ -63,6 +63,6 @@ To clear out all stashes, run `git stash clear`
     ```
     
 11. Add and commit your changes on the `master` branch. [x]
-12. Now that your boss has left, it's safe to get back to the truth! Switch over to the `the-truth` branch.
-13. Retrieve the earlier changes that you stashed (I HATE MY BOSS x 5)
-14. Add and commit the changes on the `the-truth` branch
+12. Now that your boss has left, it's safe to get back to the truth! Switch over to the `the-truth` branch. [x]
+13. Retrieve the earlier changes that you stashed (I HATE MY BOSS x 5) [x]
+14. Add and commit the changes on the `the-truth` branch [x]
