@@ -108,11 +108,11 @@ Remember to follow these basic steps:
 
 ## Github Basics Exercise
 
-1. Create a new repository locally on your machine. 
-2. Create a new Github repository. Name it whatever you want. 
-3. Connect your local repo to the Github repo. 
-4. Optional: rename the default branch from master to main.
-5. Make a new file called `favorites.txt`  Leave it empty. Make your first commit on the `main` branch.
+1. Create a new repository locally on your machine. [x]
+2. Create a new Github repository. Name it whatever you want. [x]
+3. Connect your local repo to the Github repo. [x]
+4. Optional: rename the default branch from master to main. [x]
+5. Make a new file called `favorites.txt`  Leave it empty. Make your first commit on the `main` branch. [x]
 6. Push up your `main` branch to Github! Make sure you see your empty `favorites.txt` file on Github.
 7. Next, create two branches: `foods` and `movies`
 8. Switch to the `foods` branch.  Add three (or more) of your favorite foods to the `favorites.txt` file.  Add and commit your changes on the `foods` branch.
