@@ -33,4 +33,5 @@ Even though I am finished with the linux-command-line-bootcamp, I am still using
 ###### Accessing The Slides & Diagrams
 I keep a copy of the slides provided by Colt within the notes/assets folder
 
-1. [Section 2](./notes/section-02.md)
+1. [Section 2](./notes/section-02.md) Intro To Git
+2. [Section 3](./notes/section-03.md) Git & Github Installation
