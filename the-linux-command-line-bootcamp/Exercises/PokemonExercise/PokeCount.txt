@@ -1,0 +1,2 @@
+The Total number of Pokemon in the PokeDex folder is
+718
