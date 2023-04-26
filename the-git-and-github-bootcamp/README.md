@@ -51,4 +51,4 @@ I keep a copy of the slides provided by Colt within the notes/assets folder
 17. [Section 17](./notes/section-17.md) Git Tags
 18. [Section 18](./notes/section-18.md) Git Behind The Scenes
 19. [Section 19](./notes/section-19.md) Reflogs
-20. [Section 20](./notes/section-20.md) Git Aliaes
+20. [Section 20](./notes/section-20.md) Git Aliases
