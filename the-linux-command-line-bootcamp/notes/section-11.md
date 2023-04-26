@@ -65,6 +65,7 @@ However at the tail end there are some messed up Pokemon
 
 - Now that we have this file that includes all the Pokemon in numerical order, let's print out the three pigeon-related Pokemon: pidgey, pidgeotto, and pidgeot.  Using the command-line, print out lines 16-18.  It should look like this:
 [x] - ` echo 'Pigeon related Pokemon' > PidgeMon.txt 2>> PokeErrors.log | sed -n '16,18p' all-pokemon.txt >> PidgeMon.txt 2> PokeErrors.log`
+^ This no longer works because of the next command but, we can leverage this command learned later on in the course - `grep -rA2 "pidgey" PokemonExercise/`
 ```bash
 16pidgey
 17pidgeotto
