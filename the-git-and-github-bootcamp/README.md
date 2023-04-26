@@ -1,7 +1,7 @@
 # The Git and Github Bootcamp
+## Udemy Course From Colt Steele Completed 4/26/23
+This is my source for all of the information gathered while watching and participating in Colt Steele's course [The Git and Github Bootcamp](https://www.udemy.com/share/104c523@3jxlTGLLaDBzuaUzc4odqC7PGcv4NiIRU2CikPmXF00_Aipso1ESisBDy-fl0i1n/)
 ## Brief Overview
-
-### Welcome to the course and join the community. Already am a member and thanks for the welcome =)
 
 #### What does this course cover?
 Git: The Other Parts
@@ -52,3 +52,5 @@ I keep a copy of the slides provided by Colt within the notes/assets folder
 18. [Section 18](./notes/section-18.md) Git Behind The Scenes
 19. [Section 19](./notes/section-19.md) Reflogs
 20. [Section 20](./notes/section-20.md) Git Aliases
+
+![Certificate](./certificate.jpg)
