@@ -35,3 +35,4 @@ I keep a copy of the slides provided by Colt within the notes/assets folder
 
 1. [Section 2](./notes/section-02.md) Intro To Git
 2. [Section 3](./notes/section-03.md) Git & Github Installation
+2. [Section 4](./notes/section-04.md) Git Basics
