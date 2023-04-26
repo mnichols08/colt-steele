@@ -40,3 +40,4 @@ I keep a copy of the slides provided by Colt within the notes/assets folder
 6. [Section 6](./notes/section-06.md) Git Branching
 7. [Section 7](./notes/section-07.md) Merging Branches
 8. [Section 8](./notes/section-08.md) Comparisons with Git Diff
+9. [Section 9](./notes/section-09.md) Git Stashing
