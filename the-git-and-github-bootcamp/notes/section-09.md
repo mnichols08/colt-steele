@@ -28,3 +28,41 @@ To delete a particular stash, you can use `git stash drop <stash-id>`
 To clear out all stashes, run `git stash clear`
 
 ## Do I really Need This? YES!
+
+### Stashing Exercise
+
+1. Initialize a new git repo in a folder [x]
+2. Create a file called `diary.txt`.  Inside the file, add the following: [x]
+    
+    ```
+    I love my boss
+    ```
+    
+3. Add and commit the changes on the `master` branch [x]
+4. Create a new branch called `the-truth`.  Switch to it. [x]
+5. In the `diary.txt` file, erase the contents and instead replace it with:
+    
+    ```
+    I HATE MY BOSS
+    I HATE MY BOSS
+    I HATE MY BOSS
+    I HATE MY BOSS
+    I HATE MY BOSS
+    ```
+    
+6. Save the file
+7. **OH NO!** Your boss is walking towards you! Quick, switch over to the `master` branch! [x]
+8. **WHATTT?** The `diary.txt` file still contains our confession?  **Quick, stash the changes before your boss sees!!** [x]
+9. Your `diary.txt` file should now only contain "I love my boss" [x]
+10. As your boss walks by, add more lies to the `diary.txt` file: [x]
+    
+    ```
+    I love my boss
+    I love my boss
+    I love my boss
+    ```
+    
+11. Add and commit your changes on the `master` branch. [x]
+12. Now that your boss has left, it's safe to get back to the truth! Switch over to the `the-truth` branch. [x]
+13. Retrieve the earlier changes that you stashed (I HATE MY BOSS x 5) [x]
+14. Add and commit the changes on the `the-truth` branch [x]
