@@ -38,3 +38,13 @@ The -c option tells grep to print th enumber of matches instead of printing the 
 Grep -o
 The -o option tells gre to only print out the matches, rather than the entire line containing each match.
 `grep -o "\$[1-9]" prices.txt`
+
+Piping To Grep
+A common use case is to use grep to whittle down or filter a large chunk of data.
+In this example, the `ps -aux` command will output a huge list of all processes running on our machine. We pipe that data to grep, and then filter it down to only the processes that include "Mikey"
+`ps -aux | grep Mikey`
+In effect, this command lets us see what Mikey is up to!
+
+Piping to Grep
+In this example, we are getting the man page for grep and then piping that to the actual grep command, where we search for the string "count". Basically it's a weird way of searching the man pages.
+`man grep | grep "count"`
