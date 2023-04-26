@@ -113,11 +113,11 @@ Remember to follow these basic steps:
 3. Connect your local repo to the Github repo. [x]
 4. Optional: rename the default branch from master to main. [x]
 5. Make a new file called `favorites.txt`  Leave it empty. Make your first commit on the `main` branch. [x]
-6. Push up your `main` branch to Github! Make sure you see your empty `favorites.txt` file on Github.
-7. Next, create two branches: `foods` and `movies`
-8. Switch to the `foods` branch.  Add three (or more) of your favorite foods to the `favorites.txt` file.  Add and commit your changes on the `foods` branch.
-9. Switch to the `movies` branch and add three or more of your favorite movies to the `favorites.txt` file.  Add and commit your changes on the movies branch.
-10. Push up your `foods` branch to Github. Make sure you see it on Github!
-11. Push up your `movies` branch to Github.  Make sure you see it on Github!
-12. Merge the `foods` branch into the `main` branch.  Then merge the `movies` branch into the `main` branch.  If necessary, resolve conflicts so that you end up with your favorite foods and favorite movies in the same `favorites.txt` file. 
-13. Push up the latest work on your `main` branch to Github.
+6. Push up your `main` branch to Github! Make sure you see your empty `favorites.txt` file on Github. [x]
+7. Next, create two branches: `foods` and `movies` [x]
+8. Switch to the `foods` branch.  Add three (or more) of your favorite foods to the `favorites.txt` file.  Add and commit your changes on the `foods` branch. [x]
+9. Switch to the `movies` branch and add three or more of your favorite movies to the `favorites.txt` file.  Add and commit your changes on the movies branch. [x]
+10. Push up your `foods` branch to Github. Make sure you see it on Github! [x]
+11. Push up your `movies` branch to Github.  Make sure you see it on Github! [x]
+12. Merge the `foods` branch into the `main` branch.  Then merge the `movies` branch into the `main` branch.  If necessary, resolve conflicts so that you end up with your favorite foods and favorite movies in the same `favorites.txt` file. [x]
+13. Push up the latest work on your `main` branch to Github. [x]
