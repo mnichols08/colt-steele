@@ -54,12 +54,12 @@ Use the -v flag with git branch to view more information about each branch.
 
 ### Branching Exercise
 
-1. Make a new folder called `Patronus`
-2. Make a new git repo inside the folder (make sure you're not in an existing repo)
-3. Create a new file called `patronus.txt` (leave it empty for now)
-4. Add and commit the empty file, with the message "add empty patronus file"
-5. Immediately make a new branch called `harry` and another branch called `snape` (both based on the master branch)
-6. Move to the `harry` branch using the "new" command to change branches.
+1. Make a new folder called `Patronus` [x]
+2. Make a new git repo inside the folder (make sure you're not in an existing repo) [x]
+3. Create a new file called `patronus.txt` (leave it empty for now) [x]
+4. Add and commit the empty file, with the message "add empty patronus file" [x]
+5. Immediately make a new branch called `harry` and another branch called `snape` (both based on the master branch) [x]
+6. Move to the `harry` branch using the "new" command to change branches. [x]
 7. In the `patronus.txt` file, add the following:
     
     ```
