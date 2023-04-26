@@ -107,7 +107,6 @@ f(n) could be constant (f(n) = 1)
 f(n) could be something entirely different!
 
 ### Example
--|-
 ```
 Example
 function addUpTo(n) {
@@ -125,7 +124,6 @@ function addUpTo(n) {
 ``` | Number of operations is (eventually) bounded by a multiple of n (say, 10n) O(n)
 
 ### Another Example
--|-
 ```
 function countUpAndDown(n) {
   console.log("Going up!");
@@ -141,7 +139,6 @@ function countUpAndDown(n) {
 ``` | Number of operations is (eventually) bounded by a multiple of n (say, 10n) O(n)
 
 ### Moar Examplez
--|-
 ```
 function printAllPairs(n) {
   for (var i = 0; i < n; i++) {
