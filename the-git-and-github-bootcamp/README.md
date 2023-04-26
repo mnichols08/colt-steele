@@ -43,3 +43,4 @@ I keep a copy of the slides provided by Colt within the notes/assets folder
 9. [Section 9](./notes/section-09.md) Git Stashing
 10. [Section 10](./notes/section-10.md) Undoing Stuff & Time Traveling
 11. [Section 11](./notes/section-11.md) Github Basics
+12. [Section 12](./notes/section-12.md) Fetching & Pulling
