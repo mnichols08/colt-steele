@@ -77,9 +77,26 @@ Explore Examples with Invalid Inputs
 - Can you think of other ways to refactor?
 - How have other people solved this problem?
 
-# Recap!
+## Recap!
 - Understand the Problem
 - Explore Concrete Examples
 - Break It Down
 - Solve/Simplify
 - Look Back and Refactor
+
+## Some Problem Solving Patterns
+- Frequency Counter
+- Multiple Pointers
+- Sliding Window
+- Divide and Conquer
+- Dynamic Programming
+- Greedy Algorithms
+- Backtracking
+- Many more!
+
+## Frequency Counters
+This pattern uses objects or sets to collect values/frequencies of values
+This can often avoid the need for nested loops or O(N^2) operations with arrays / strings
+
+## An Example
+Write a function called same, which accepts two arrays. The function should return true if every value in the array has it's corresponding value squared in the second array. The frequency of values must be the same.
