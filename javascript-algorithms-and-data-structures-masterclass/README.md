@@ -40,5 +40,8 @@ Notice the prerequisite lecture. It contains a suggestion on videos to watch bef
 
 2. [Section 2](./notes/section-02.md) Big O Notation
 3. [Section 3](./notes/section-03.md) Built-In Data Structures
+4. [Section 4](./notes/section-04.md) Algorithms and Problem Solving Patterns
+
+
 
 <!-- ![Certificate](./certificate.jpg) -->
