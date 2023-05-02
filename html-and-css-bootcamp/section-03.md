@@ -14,3 +14,5 @@ Use the[ `<strong>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s
 Use the [`<b>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b) element to bring attention to text. Use it for text that is traditionally bolded, only when there is not a more suitable element.
 
 This is the general pattern and mindset. HTML lets you do all sorts of wild and crazy stuff but the standards of the web suggest that we do things this way.
+
+## Nesting Elements
