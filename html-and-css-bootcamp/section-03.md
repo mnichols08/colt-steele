@@ -16,3 +16,8 @@ Use the [`<b>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b) ele
 This is the general pattern and mindset. HTML lets you do all sorts of wild and crazy stuff but the standards of the web suggest that we do things this way.
 
 ## Nesting Elements
+Every element within html is capable of being nested. Technically every single element on an page is nested within the parent `<html>` tag.
+
+## Superscript and Subscript
+Use the [`<sup>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup) tags to designate text as superscript (raised baseline with smaller text)
+Use the [`<sub>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub) tags to designate text as subscript (lowered baseline with smaller text)
