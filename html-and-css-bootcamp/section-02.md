@@ -17,3 +17,13 @@ For example to learn more about the `<p>` element within HTML, you can go to [ht
 Ctrl + Shift + I or right click and click inspect. This is a powerful toolset found within many browsers that allow developers to view just about everything within a web document.
 
 ## Document Structure
+An HTML5 document must be declared with a `<!DOCTYPE html>` at the top, as well as traditional `html` requirements like having an `<html>` tag, a `<head>`, and a `<body>`.
+We can also just use the exlamation point and press tab as a shortcut in VS Code to generate boilerplate HTML
+
+## Comments in HTML
+`<!-- This is an HTML Comment -->`
+In VS Code we can use ctrl + `/` as a shortcut to comment out any line or highlighted text
+
+## Creating Headings
+Section [Headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) are html tags that specify that the text is very important or indicate structure. It should tell the user something about the content to follow. There are six levels of heading and by default they all have a different font-size, but we can always change the font size. We should not use an H1 to make text large, but rather use a heading appropriately to define important text.
+
