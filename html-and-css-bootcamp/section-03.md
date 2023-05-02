@@ -29,5 +29,8 @@ Certain elements like paragraphs `<p>`, headings `<h1>`, etc wil be displayed as
 A link is created by providing a `href` property to an anchor [`<a>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a).
 A relative link is a link that is assumed to be on the current server. It may not have a full URL, but just a `/path-to-file.html`
 
-##
+## Creating Images
+Create image elements using the [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) tag. Note that it does not have a closing tag! The src attribute specifies the location of the image to be displayed. Every image should have an `alt` attribute which describes the image for a screen reader or if the image cannot be rendered
+
+
 
