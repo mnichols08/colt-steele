@@ -21,3 +21,13 @@ Every element within html is capable of being nested. Technically every single e
 ## Superscript and Subscript
 Use the [`<sup>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup) tags to designate text as superscript (raised baseline with smaller text)
 Use the [`<sub>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub) tags to designate text as subscript (lowered baseline with smaller text)
+
+## Inline vs. Block Elements
+Certain elements like paragraphs `<p>`, headings `<h1>`, etc wil be displayed as block by default whereas other elements like `<em>` or `<span>`, or `<sub>`, etc. will be displayed inline instead. 
+
+## Creating Links
+A link is created by providing a `href` property to an anchor [`<a>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a).
+A relative link is a link that is assumed to be on the current server. It may not have a full URL, but just a `/path-to-file.html`
+
+##
+
