@@ -14,7 +14,7 @@ JS allows interaction between the user behavior or action of the page content
 ## Course Overview
 [Section 2 - HTML Basics](./section-02.md)
 [Section 3 - More HTML](./section-03.md)
-Section 4 - Working With Forms
+[Section 4 - Working With Forms](./section-04.md)
 Section 5: Other Elements
 Section 6: CSS Basics
 Section 7: The World of CSS Colors
