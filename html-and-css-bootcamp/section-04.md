@@ -19,3 +19,4 @@ Forms typically do one of two things
 - What inputs are part of the form?
 2. Send the Data Somewhere
 - Where does the form data go when submitted?
+The action attribute of a form is what tells the browser what to do with the data from a form by default.
