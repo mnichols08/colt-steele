@@ -35,7 +35,7 @@ A string specifying a name for the input control. This name is submitted along w
 
 Attribute | Type or Types | Description
 
------- | ------ | ------
+|------ | ------ | ------
   accept | file | Hint for expected file type in file upload controls
   alt | image | alt attribute for the image type. Required for accessibility
   autocomplete | all except checkbox, radio, and buttons | Hint for form autofill feature
