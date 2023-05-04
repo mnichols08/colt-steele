@@ -99,3 +99,20 @@ The `<textarea>` HTML element represents a multi-line plain-text editing control
 <input type="checkbox" name="subscribe" />
 ```
 - Use `type='checkbox'` to create a checkbox element
+
+## Selects and Radio Button Groupings
+- [Select](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)s
+`<select>`: The HTML Select element
+The `<select>` HTML element represents a control that provides a menu of options.
+```
+<select name="pets> id="pet-select">
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Pattot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+```
+- Populate a `<select>` element with `<option>` elements.
+- The value is not visual to the user and is only sent through the form as data to identify which option the user has picked.
