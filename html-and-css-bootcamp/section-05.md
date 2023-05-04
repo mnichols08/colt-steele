@@ -58,3 +58,11 @@ Why should we bother?
 1. Accessibility
 2. Search Engines
 3. Developer Sanity
+
+Important useful newer elements to be aware of:
+`<main>` - tells the screen reader that this is the main area of the page
+`<header>` - represents introductory content a great place for logos, slogans, the navbar, searchbar, etc.
+`<footer>` - similar in every regard - usually where a copyright would go and a reminder, contact information, etc
+`<nav>` - navigational content - it is ok to have more than one on a page!
+`aside` - represents a portion of an element is conveying additional information to the element before it
+Plenty more as seen above and can be explored in great detail 
