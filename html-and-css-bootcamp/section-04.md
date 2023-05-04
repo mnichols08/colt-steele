@@ -60,7 +60,9 @@ type | all | Type of form control
 value | all except image | The initial value of the control
 width | image | Same as width attribute for `<img>`
 
-## Labels
+## [Label](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)s
+`<label>`: The Label element
+The `<label>` HTML element represents a caption for an item in a user interface.
 ```
 <label for="username">Enter Your Username</label>
 <input type="text" id="username">
