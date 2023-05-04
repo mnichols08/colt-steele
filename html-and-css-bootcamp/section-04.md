@@ -84,3 +84,10 @@ Always match a label element to a a form control using the `for` attribute. It m
 `<textarea>`: The Textarea element
 The `<textarea>` HTML element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.
 - Use `<textarea>` tags to create a multi-line text input. For example if we wanted to allow users to submit an essay or bio.
+ 
+## [Range Input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range)
+`<input>` elements of type range let the user specify a numeric value which must be no less than a given value, and no more than another given value. The precise value, however, is not considered important. This is typically represented using a slider or dial control rather than a text entry box like the number input type.
+```
+<input type="range" min="0" max="11">
+```
+- Use `type='range'` to create a range input (slider)
