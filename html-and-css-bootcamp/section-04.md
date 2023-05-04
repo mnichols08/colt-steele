@@ -33,42 +33,41 @@ Forms typically do one of two things
 
 A string specifying a name for the input control. This name is submitted along with the control's value when the form data is submitted.
 
-Attribute | Type or Types | Description
-
-* \| - | -
-  accept | file | Hint for expected file type in file upload controls
-  alt | image | alt attribute for the image type. Required for accessibility
-  autocomplete | all except checkbox, radio, and buttons | Hint for form autofill feature
-  capture | file | Media capture input method in file upload controls
-  checked | checkbox, radio | Whether the command or control is checked
-  dirname | search, text | Name of form field to use for sending the element's directionality in form submission
-  disabled | all | Whether the form control is disabled
-  form | all | Associates the control with a form element
-  formaction | image, submit | URL to use for form submission
-  formenctype | image, submit | Form data set encoding type to use for form submission
-  formmethod | image, submit | HTTP method to use for form submission
-  formnovalidate | image, submit | Bypass form control validation for form submission
-  formtarget | image, submit | Browsing context for form submission
-  height | image | Same as height attribute for `<img>`; vertical dimension
-  list | all except hidden, password, checkbox, radio, and buttons | Value of the id attribute of the `<datalist>` of autocomplete options
-  max | date, month, week, time, datetime-local, number, range | Maximum value
-  maxlength | text, search, url, tel, email, password | Maximum length (number of characters) of value
-  min | date, month, week, time, datetime-local, number, range | Minimum value
-  minlength | text, search, url, tel, email, password | Minimum length (number of characters) of value
-  multiple | email, file | Boolean. Whether to allow multiple values
-  name | all | Name of the form control. Submitted with the form as part of a name/value pair
-  pattern | text, search, url, tel, email, password | Pattern the value must match to be valid
-  placeholder | text, search, url, tel, email, password, number | Text that appears in the form control when it has no value set
-  popovertarget | button | Designates an `<input type="button">` as a control for a popover element
-  popovertargetaction | button | Specifies the action that a popover control should perform
-  readonly | all except hidden, range, color, checkbox, radio, and buttons | Boolean. The value is not editable
-  required | all except hidden, range, color, and buttons | Boolean. A value is required or must be check for the form to be submittable
-  size | text, search, url, tel, email, password | Size of the control
-  src | image | Same as src attribute for `<img>`; address of image resource
-  step | date, month, week, time, datetime-local, number, range | Incremental values that are valid
-  type | all | Type of form control
-  value | all except image | The initial value of the control
-  width | image | Same as width attribute for `<img>`
+| Attribute | Type or Types | Description |
+|------ | ------ | ------ |
+| accept | file | Hint for expected file type in file upload controls |
+| alt | image | alt attribute for the image type. Required for accessibility |
+| autocomplete | all except checkbox, radio, and buttons | Hint for form autofill feature |
+| capture | file | Media capture input method in file upload controls |
+| checked | checkbox, radio | Whether the command or control is checked |
+| dirname | search, text | Name of form field to use for sending the element's directionality in form submission |
+| disabled | all | Whether the form control is disabled |
+| form | all | Associates the control with a form element |
+| formaction | image, submit | URL to use for form submission |
+| formenctype | image, submit | Form data set encoding type to use for form submission |
+| formmethod | image, submit | HTTP method to use for form submission |
+| formnovalidate | image, submit | Bypass form control validation for form submission |
+| formtarget | image, submit | Browsing context for form submission |
+|  height | image | Same as height attribute for `<img>`; vertical dimension |
+|  list | all except hidden, password, checkbox, radio, and buttons | Value of the id attribute of the `<datalist>` of autocomplete options |
+| max | date, month, week, time, datetime-local, number, range | Maximum value |
+|  maxlength | text, search, url, tel, email, password | Maximum length (number of characters) of value |
+|  min | date, month, week, time, datetime-local, number, range | Minimum value |
+|  minlength | text, search, url, tel, email, password | Minimum length (number of characters) of value |
+|  multiple | email, file | Boolean. Whether to allow multiple values |
+|  name | all | Name of the form control. Submitted with the form as part of a name/value pair |
+|  pattern | text, search, url, tel, email, password | Pattern the value must match to be valid |
+|  placeholder | text, search, url, tel, email, password, number | Text that appears in the form control when it has no value set |
+|  popovertarget | button | Designates an `<input type="button">` as a control for a popover element |
+|  popovertargetaction | button | Specifies the action that a popover control should perform |
+|  readonly | all except hidden, range, color, checkbox, radio, and buttons | Boolean. The value is not editable |
+|  required | all except hidden, range, color, and buttons | Boolean. A value is required or must be check for the form to be submittable |
+|  size | text, search, url, tel, email, password | Size of the control |
+|  src | image | Same as src attribute for `<img>`; address of image resource |
+|  step | date, month, week, time, datetime-local, number, range | Incremental values that are valid |
+|  type | all | Type of form control |
+|  value | all except image | The initial value of the control |
+|  width | image | Same as width attribute for `<img>` |
 
 ## [Label](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)s
 
@@ -80,4 +79,50 @@ The `<label>` HTML element represents a caption for an item in a user interface.
 <input type="text" id="username">
 ```
 
+Always match a label element to a a form control using the `for` attribute. It must match the id attribute on an input.
+
+## [Text Areas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+`<textarea>`: The Textarea element
+The `<textarea>` HTML element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.
+- Use `<textarea>` tags to create a multi-line text input. For example if we wanted to allow users to submit an essay or bio.
+ 
+## [Range Input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range)
+`<input>` elements of type range let the user specify a numeric value which must be no less than a given value, and no more than another given value. The precise value, however, is not considered important. This is typically represented using a slider or dial control rather than a text entry box like the number input type.
+```
+<input type="range" min="0" max="11">
+```
+- Use `type='range'` to create a range input (slider)
+
+## [Checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
+`<input type="checkbox">`
+`<input>` elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners. A checkbox allows you to select single values for submission in a form (or not).
+```
+<input type="checkbox" name="subscribe" />
+```
+- Use `type='checkbox'` to create a checkbox element
+
+## Selects and Radio Button Groupings
+- [Select](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)s
+`<select>`: The HTML Select element
+The `<select>` HTML element represents a control that provides a menu of options.
+```
+<select name="pets> id="pet-select">
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Pattot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+```
+- Populate a `<select>` element with `<option>` elements.
+- The value is not visual to the user and is only sent through the form as data to identify which option the user has picked.
+
+## [Radio]
+`<input type="radio">`
+`<input>` elements of type radio are generally used in radio groups—collections of radio buttons describing a set of related options.
+Only one radio button in a given group can be selected at the same time. Radio buttons are typically rendered as small circles, which are filled or highlighted when selected.
+=======
+
 Match a label element to a a form control using the `for` attribute. It must match the id attribute on an input.
+
