@@ -9,3 +9,8 @@ The `<span>` HTML element is a generic inline container for phrasing content, wh
 `<div>`: The Content Division element
 The `<div>` HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).
 - Divs are generic containers that have no inherent meaning. They are used to group content together for styling.
+
+## [Table](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)s
+`<table>`: The Table element
+The `<table>` HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+- A useful resource for learning how to make cables can be found at [https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
