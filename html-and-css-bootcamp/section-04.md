@@ -78,6 +78,7 @@ The `<label>` HTML element represents a caption for an item in a user interface.
 <label for="username">Enter Your Username</label>
 <input type="text" id="username">
 ```
+
 Always match a label element to a a form control using the `for` attribute. It must match the id attribute on an input.
 
 ## [Text Areas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
@@ -121,3 +122,7 @@ The `<select>` HTML element represents a control that provides a menu of options
 `<input type="radio">`
 `<input>` elements of type radio are generally used in radio groups—collections of radio buttons describing a set of related options.
 Only one radio button in a given group can be selected at the same time. Radio buttons are typically rendered as small circles, which are filled or highlighted when selected.
+=======
+
+Match a label element to a a form control using the `for` attribute. It must match the id attribute on an input.
+
