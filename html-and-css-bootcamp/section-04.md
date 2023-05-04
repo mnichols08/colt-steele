@@ -79,3 +79,8 @@ The `<label>` HTML element represents a caption for an item in a user interface.
 <input type="text" id="username">
 ```
 Always match a label element to a a form control using the `for` attribute. It must match the id attribute on an input.
+
+## [Text Areas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+`<textarea>`: The Textarea element
+The `<textarea>` HTML element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.
+- Use `<textarea>` tags to create a multi-line text input. For example if we wanted to allow users to submit an essay or bio.
