@@ -21,7 +21,8 @@ Forms typically do one of two things
 - Where does the form data go when submitted?
 The action attribute of a form is what tells the browser what to do with the data from a form by default.
 
-## Name and Placeholder Attributes
+## [Name](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#name) and Placeholder Attributes
+A string specifying a name for the input control. This name is submitted along with the control's value when the form data is submitted.
 
 Attribute | Type or Types | Description
 - | - | -
