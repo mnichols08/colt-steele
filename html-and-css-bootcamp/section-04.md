@@ -116,3 +116,8 @@ The `<select>` HTML element represents a control that provides a menu of options
 ```
 - Populate a `<select>` element with `<option>` elements.
 - The value is not visual to the user and is only sent through the form as data to identify which option the user has picked.
+
+## [Radio]
+`<input type="radio">`
+`<input>` elements of type radio are generally used in radio groups—collections of radio buttons describing a set of related options.
+Only one radio button in a given group can be selected at the same time. Radio buttons are typically rendered as small circles, which are filled or highlighted when selected.
