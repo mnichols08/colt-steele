@@ -12,37 +12,37 @@ CSS declare styles to be applied to the page content
 JS allows interaction between the user behavior or action of the page content
 
 ## Course Overview
-[Section 2 - HTML Basics](./section-02.md)
-[Section 3 - More HTML](./section-03.md)
-[Section 4 - Working With Forms](./section-04.md)
-[Section 5: Other Elements](./section-05.md)
-Section 6: CSS Basics
-Section 7: The World of CSS Colors
-Section 8: Styling Text
-Section 9: Styling Text Continued
-Section 10: Selectors Part One
-Section 11: The Box Model
-Section 12: Artist Portfolio Project
-Section 13: Specificity and The Cascade
-Section 14: Blog Post Project
-Section 15: CSS Units
-Section 16: Hazel CV Project
-Section 17: Backgrounds, Gradients, & Filters
-Section 18: Positiong
-Section 19: Transitions and Transforms
-Section 20: Flexbox: Part One
-Section 21: Flexbox Part Two: Items and Patterns
-Section 22: Cost Estimator Project
-Section 23: Making Responsive Websites With Media Queries
-Section 24: Making Our Projects Responsive
-Section 25: CSS Grid 
-Section 26: CSS Grid Continued
-Section 27: Grid Project
-Section 28: Building Animations
-Section 29: Building a Mobile Drawer Navbar
-Section 30: ::before and ::after pseudo elements
-Section 31: Modern CSS
-Section 32: Swipe Mega Project
-Section 33: Swipe Project Part Two
-Section 34: Swipe Project Part Three
-Section 35: Swipe Project Part Four - Making it Responsive
+- [Section 2 - HTML Basics](./section-02.md)
+- [Section 3 - More HTML](./section-03.md)
+- [Section 4 - Working With Forms](./section-04.md)
+- [Section 5: Other Elements](./section-05.md)
+- Section 6: CSS Basics
+- Section 7: The World of CSS Colors
+- Section 8: Styling Text
+- Section 9: Styling Text Continued
+- Section 10: Selectors Part One
+- Section 11: The Box Model
+- Section 12: Artist Portfolio Project
+- Section 13: Specificity and The Cascade
+- Section 14: Blog Post Project
+- Section 15: CSS Units
+- Section 16: Hazel CV Project
+- Section 17: Backgrounds, Gradients, & Filters
+- Section 18: Positiong
+- Section 19: Transitions and Transforms
+- Section 20: Flexbox: Part One
+- Section 21: Flexbox Part Two: Items and Patterns
+- Section 22: Cost Estimator Project
+- Section 23: Making Responsive Websites With Media Queries
+- Section 24: Making Our Projects Responsive
+- Section 25: CSS Grid 
+- Section 26: CSS Grid Continued
+- Section 27: Grid Project
+- Section 28: Building Animations
+- Section 29: Building a Mobile Drawer Navbar
+- Section 30: ::before and ::after pseudo elements
+- Section 31: Modern CSS
+- Section 32: Swipe Mega Project
+- Section 33: Swipe Project Part Two
+- Section 34: Swipe Project Part Three
+- Section 35: Swipe Project Part Four - Making it Responsive
