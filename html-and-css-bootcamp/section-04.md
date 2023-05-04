@@ -59,3 +59,10 @@ step | date, month, week, time, datetime-local, number, range | Incremental valu
 type | all | Type of form control
 value | all except image | The initial value of the control
 width | image | Same as width attribute for `<img>`
+
+## Labels
+```
+<label for="username">Enter Your Username</label>
+<input type="text" id="username">
+```
+Match a label element to a a form control using the `for` attribute. It must match the id attribute on an input.
