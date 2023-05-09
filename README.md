@@ -7,3 +7,4 @@ This is my repository for all of the projects that I build following tutorials b
 3. [javascript-algorithms-and-data-structures-masterclass](./javascript-algorithms-and-data-structures-masterclass/README.md)
 4. [the-complete-guide-to-html](./the-complete-guide-to-html/README.md)
 5. [html-and-css-bootcamp](./html-and-css-bootcamp/README.md)
+6. [the-web-developer-bootcamp](./the-web-developer-bootcamp/README.md)
