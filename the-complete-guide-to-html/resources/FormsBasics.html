@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms Basics</title>
+  </head>
+  <body>
+    <h1>Forms Basics!</h1>
+    <form action="/login">
+      <input type="text" placeholder="username" required />
+      <input type="password" placeholder="password" required />
+      <input type="submit" value="GO!" />
+    </form>
+    <input type="text" name="city" />
+    <button>Generic Button</button>
+
+    <h2>Input Elements</h2>
+    <form action="">
+      <label for="email">Email:</label>
+      <input type="email" placeholder="email" id="email" />
+
+      <label for="linkedin">Your Linkedin Profile</label>
+      <input type="url" id="linkedin" />
+      <input type="number" />
+      <button>Submit</button>
+    </form>
+
+    <h2>The Name Attribute</h2>
+    <form action="">
+      <div>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city" />
+      </div>
+      <div>
+        <label for="state">State:</label>
+        <input type="text" name="USstate" id="state" />
+      </div>
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
